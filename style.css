@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818; /* اللون الداكن من الصورة */
+    color: #ffffff; /* لون النص العام بحيث يكون واضحًا */
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff; /* لون العناوين */
+}
+
+.testimonials {
+    padding: 40px 0;
+    background-color:#181818 /* خلفية بيضاء */
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: rgb(41, 41, 41); /* لون خلفية فاتح */
+    color: #ffffff; /* لون النص */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #181818; /* حدود رمادية */
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    object-fit: cover;
+    border: 2px solid #181818; /* إطار خفيف */
+}
+
+.testimonial h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #ffffff; /* لون النص */
+}
+
+.testimonial .stars {
+    color: #ffcc00; /* لون النجوم */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff; /* لون النص أقل حدة */
+}
+
+.testimonial span.quote {
+    position: absolute;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.05); /* لون خفيف للتصميم */
+    top: -10px;
+    left: 10px;
+}
+
+@media (max-width: 768px) {
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* تنسيق عام */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#181818; /* لون خلفية الصفحة */
+    color: #333; /* لون النص */
+}
+
+/* تنسيق الهيدر */
+.header {
+    background-color: #282828; /* لون خلفية الهيدر */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* تنسيق الشعار */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px; /* عرض الشعار */
+    height: auto; /* الحفاظ على الأبعاد */
+}
+
+/* شريط التنقل */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff; /* لون النص */
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #444; /* لون عند التمرير */
+    border-radius: 5px;
+}
+
+/* المحتوى الرئيسي */
+main {
+    text-align: center;
+    margin: 50px 20px;
+    
+}
+
+
+
